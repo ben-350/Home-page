@@ -1,0 +1,445 @@
+/* Content.css */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  height: 701.75px; /* Set container height to 100% of the viewport height */
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.cards {
+  margin-left: 170px;
+  margin-top: 100px;
+}
+
+.flex-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin between flex containers */
+  flex-direction: row;
+  width: 1000px; ;
+
+}
+
+
+
+.card1 {
+  width:  330px;
+  height: 330px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 60px; /* Add margin between cards */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add box-shadow */
+  display: flex;
+
+}
+
+
+.card-header {
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 25px;
+margin-top:-20px;}
+
+.discount-price {
+  font-size: 14px;
+  margin: 0;
+}
+
+.final-price {
+  font-size: 16px;
+  margin: 0;
+  margin-top: -15px;
+
+}
+
+.crossed-price {
+  position: relative;
+  text-decoration: none;
+  color: black; /* Set the text color */
+}
+
+.crossed-price::after {
+  content: '';
+  position: absolute;
+  bottom: 50%; /* Adjust the position of the line */
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid red; /* Set the color of the line */
+}
+.actual-price{
+  margin-top: 5px;
+  font-size: 20px; /* Adjust the font size as needed */
+
+}
+.get-started-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+
+.get-started-button {
+  background-color: rgb(247, 215, 173);
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.get-started-button2 {
+  background-color: rgb(255, 161, 146);
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.get-started-button3 {
+  background-color: rgb(166, 252, 182);
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+
+.divider {
+  width: 80%; /* Set the width to 90% to leave a 5% gap on both ends */
+  margin: 10px 0;
+  margin-top:  auto;
+}
+
+.card-content {
+  margin-left: -60px;
+margin-bottom: 30px;}
+
+.content-title {
+  font-size: 14px;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 13px;
+
+}
+
+.features-list li {
+  margin-bottom: 5px;
+}
+.features-list li svg {
+  vertical-align: middle; /* Adjust the vertical alignment as needed */
+  position: relative;
+  top: -2px; /* Adjust the value to move the icon up or down */
+  margin-right: 5px;
+}
+/* Add or update the styles in Content.css */
+.explore-features-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: underline; /* Add underline to the link */
+  color: #000;
+  font-weight: 500; /* Adjust the font weight as needed */
+margin-left: 50px;
+margin-top: 00px;
+margin-bottom: -150px;
+
+}
+
+.play-button {
+  font-size: 16px; /* Adjust the font size as needed */
+  margin-left: 5px; /* Add margin between the link and play button */
+  text-decoration: none; /* Remove underline for the play button */
+  color: rgb(246, 225, 86);
+}
+.play-button2 {
+  font-size: 16px; /* Adjust the font size as needed */
+  margin-left: 5px; /* Add margin between the link and play button */
+  text-decoration: none; /* Remove underline for the play button */
+  color: rgb(253, 115, 115);
+}
+.play-button3 {
+  font-size: 16px; /* Adjust the font size as needed */
+  margin-left: 5px; /* Add margin between the link and play button */
+  text-decoration: none; /* Remove underline for the play button */
+  color: rgb(193, 254, 203);
+}
+.link{
+  margin-top: 25px;
+}
+
+/* 2nd raw */
+.card4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 335px;
+  height: 180px;
+  margin-right: 20px; /* Adjust margin-right to 20px */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.card5 {
+  width:  330px;
+  height: 330px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 10px; /* Add margin between cards */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Add margin between flex containers */
+  flex-direction: row;
+  width: 1000px;
+  margin-right: 10px; /* Add margin-right for spacing */
+}
+
+/* CARD4 */
+/* Content.css */
+
+.card4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+  margin-right: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.card4-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-left: 0; /* Adjust margin-left to 0px */
+  margin-top: -25px;
+  margin-right: 20px; /* Adjust margin-right to 20px */
+}
+
+.info-chip {
+  background-color: rgb(126, 255, 177); /* Use the same green color */
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-left: -180px;
+  font-size: 10px;
+}
+
+
+.card4-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -150px;
+  margin-top: 0px;
+}
+
+.card4-text {
+  font-size: 14px;
+  margin-top: -15px;
+  margin-left: 30px;
+}
+
+.card4-button {
+  background-color: rgb(118, 255, 3);
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.card5,.card6{  flex-grow: 1; /* Allow card5 to grow and shrink */
+}
+
+.get-started-button4 {
+  margin-left: -85px;
+margin-top: -5px;
+  background-color: rgb(204, 255, 167);
+  padding: 7px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card4-letters {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-content4 {
+  margin-left: 0; /* Adjust margin-left to 0px */
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+.content-title4 {
+  font-size: 14px;
+  margin: 0;
+  margin-top: -10px;
+  margin-bottom: -4px;
+  margin-left: -85px;
+}
+.card5{
+  width: 45%;
+ height: 200px; 
+ display: flex;
+flex-direction: row;
+}
+.card-left,
+.card-right {
+    padding: 0px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 60%;
+}
+
+.card-left {
+  background-color: #ffffff; /* Adjust as needed */
+  margin-left: 20px;
+  margin-right: 9px;
+  position: relative; /* Add this line */
+}
+
+.card-right {
+  background-color: #ffffff; /* Adjust as needed */
+  margin-left: 9px; /* Separation between card-left and card-right */
+  margin-right: 20px;
+}
+
+.info-chip2 {
+  background-color: rgb(204, 255, 167);  padding: 9px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: auto; /* Center horizontally and vertically */
+  font-size: 9px;
+  position: absolute;
+  top: 0%; /* Center vertically */
+  left: 0%; /* Center horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.card5-title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 20px; /* Adjust the margin to position the title */
+  margin-left: -60px;
+}
+
+.card5-text {
+  margin-top: -10px; /* Add margin to create space between title and text */
+  text-align: left; /* Center the text */
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.card6 {
+  height: 200px;
+  width: 450px;
+  background-color: #ffffff;
+  margin-right: 50px;
+position: relative;
+border: 2px solid #ffffff;
+border-radius: 8px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+font-size: 16px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-chip6 {
+  background-color: rgb(167, 202, 255);  padding: 9px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: auto; /* Center horizontally and vertically */
+  font-size: 9px;
+  position: absolute;
+  top: 0%; /* Center vertically */
+  left: 0%; /* Center horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.get-started-button6 {
+  margin-left: -85px;
+margin-top: -5px;
+background-color: rgb(167, 202, 255); 
+padding: 7px;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-info{
+  color: #00369b;
+  margin-left: 33%;
+}

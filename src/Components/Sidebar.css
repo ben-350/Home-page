@@ -1,0 +1,117 @@
+/* Sidebar.css */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 2px solid #007BFF; /* Border color for the button */
+    border-radius: 5px; /* Curved edges */
+    background-color: white; /* Button background color */
+    color: #000000; /* Button text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+  .profile-section {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /* Adjust values as needed */
+ min-height: 10px; /* Set a minimum height for the section, adjust as needed */
+ flex-shrink: 0; /* Prevent the profile section from shrinking */
+
+}
+  
+  .profile-content{
+flex-grow: 1; /* Allow the content to grow and shrink */
+
+}
+.mail {
+  font-weight: 100;
+  display: flex; /* Add this line to make it a flex container */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center;
+}
+  .arrow{
+    margin-top: 5px;
+  }
+ 
+
+/* Sidebar Component Styles */
+.sidebar {
+  background: rgb(255, 255, 255);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 87vh; /* Set sidebar height to 90% of the viewport height */
+  position: relative;
+  left: 0;
+  width: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  bottom: 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+  
+  .button {
+    display: flex; /* Fix the typo here */
+    justify-content: stretch;
+    position: relative;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border: 1px solid rgb(218, 218, 218);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    flex-grow: 1; /* Allow the button section to grow and shrink */
+    align-items: center;
+    font-weight: 550;
+
+  }
+  /* Add the following styles to change the color of the icons */
+  .button-section button svg,
+  .logouticon svg {
+    color: rgb(0, 77, 200); /* Change to the color you desire */
+    margin-right: 5px;
+    display: flex;
+    margin-top: -1px;
+  }
+  
+  .button-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; /* Adjust the margin-top value to create the desired gap */
+    flex-grow: 1;
+    min-height: 200px; /* Set a minimum height for the button section */
+    margin-bottom: 15vh;
+  }
+
+  .logout{
+    width: 100%;
+    color: rgb(42, 119, 197);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 40px;
+    align-items: center; /* Center vertically */
+    background-color: #eef6ff;
+    border:0px;
+
+;  }
+  
+  .logouticon{
+margin-left: 5px;
+align-items: center; /* Center vertically */
+margin-top: 5px;
+
+  }
+  /* Rest of the styles remain unchanged */
+  
