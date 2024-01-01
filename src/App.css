@@ -9,8 +9,6 @@
   display: flex;
   flex: 1; /* Grow to fill available space */
   height: 824.75px; /* Set container height to 100% of the viewport height */
-
-  
 }
 
 body {
@@ -18,7 +16,6 @@ body {
   display: flex;
   min-height: 100vh; /* Ensure body takes at least the full viewport height */
 }
-
 
 /* Header Component Styles */
 .header {
@@ -56,19 +53,16 @@ body {
   width: 200px;
   height: 15vh;
   margin: 0px;
-    display: flex; /* Add this line */
-
+  display: flex; /* Add this line */
   align-items: center; /* Center vertically */
   justify-content: center;
 }
-
 
 .company-info {
   display: flex;
   justify-content: space-evenly;
 align-items: center;
 margin-left: auto; /* Add this line to push it to the right */
-
 }
 
 .company-name {
